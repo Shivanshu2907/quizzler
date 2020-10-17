@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # quizzler
 
 A  quizzz app
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# quizzler
+>>>>>>> b225fe54cd41a15889586781d860fc7789a9e367
