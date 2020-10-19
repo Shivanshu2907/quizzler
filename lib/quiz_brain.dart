@@ -9,14 +9,14 @@ class QuizBrain {
   }
 
   List<Question> _Qbank = [
-    Question(q: 'your name is shivanshu', a: true),
-    Question(q: 'your surname is jain', a: false),
-    Question(q: 'you live in jaipur', a: true),
-    Question(q: 'you study in kota', a: false),
-    Question(q: 'you are in sir MVIT college', a: true),
-    Question(q: 'you are in 4th year', a: false),
-    Question(q: 'your cgpa is 8.4', a: true),
-    Question(q: 'your college is in banglore', a: true),
+    Question(questionText: 'your name is shivanshu', questionAnswer: true),
+    Question(questionText: 'your surname is jain', questionAnswer: false),
+    Question(questionText: 'you live in jaipur', questionAnswer: true),
+    Question(questionText: 'you study in kota', questionAnswer: false),
+    Question(questionText: 'you are in sir MVIT college', questionAnswer: true),
+    Question(questionText: 'you are in 4th year', questionAnswer: false),
+    Question(questionText: 'your cgpa is 8.4', questionAnswer: true),
+    Question(questionText: 'your college is in banglore', questionAnswer: true),
   ];
   String getquestiontext() {
     return _Qbank[_Qnumber].questionText;
